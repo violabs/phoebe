@@ -126,6 +126,13 @@ data class BasicDataTypes(
   val primitiveFloatArray: FloatArray = FloatArray(5),
   val primitiveDoubleArray: DoubleArray = DoubleArray(5),
   val primitiveBooleanArray: BooleanArray = BooleanArray(5),
-  val primitiveCharacterArray: CharArray = CharArray(5)
+  val primitiveCharacterArray: CharArray = CharArray(5),
   //endregion Array type
+
+  //region Other types
+  val anyTypeString: Any = "String",
+  val anyTypeNumber: Any = 144,
+  val anyTypeArray: Any = arrayOf(1, 2, 3),
+  val unitType: Unit = Unit
+  //endregion Other types
 )
